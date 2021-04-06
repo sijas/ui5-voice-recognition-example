@@ -22,11 +22,11 @@ This repository contains the example and the source code developed using UI5 too
 
 ## Initialization
 
-In the component.js of the application, on the init method initialize the SpeechReciognizer using below code.
+In the component.js of the application import the speech recognizer API using sap.ui.define, on the init method initialize the SpeechRecognizer using below code.
 
     this.oSpeechRecognizer = new SpeechRecognizer(this,<true/false>);
 
-In the above code, the first parameter to the API is the instance of the component and second is a Boolean flag which enables application to listen to command “**_HELLO ASSISTANT_**” to start listening to user commands.
+In the above code, the first parameter to the API is the instance of the component and second is a boolean flag which enables application to listen to command “**_HELLO ASSISTANT_**” to start listening to user commands.
 
 In any controller where user want to use the functionality of the Speech Recognizer, you need an instance of the previously created SpeechRecognizer. Use below code to get access to it.
 
