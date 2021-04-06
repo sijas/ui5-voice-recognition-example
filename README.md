@@ -16,7 +16,7 @@ $ui5 serve
 
 # What is SpeechRecognizer.js?
 
-[SpeedRecognizer.js](https://github.com/sijas/ui5-voice-recognition/blob/master/webapp/util/SpeechRecognizer.js) (click to download) is a util/helper/api which can be included into a project to enable voice recognition ability in the application. This API uses the Google Chrome’s voice recognition engine named ‘**_webkitSpeechRecognition’_**. This file can be placed anywhere in the webapp folder of the application. (recommended to be placed in util folder).
+[SpeechRecognizer.js](https://github.com/sijas/ui5-voice-recognition/blob/master/webapp/util/SpeechRecognizer.js) (click to download) is a util/helper/api which can be included into a project to enable voice recognition ability in the application. This API uses the Google Chrome’s voice recognition engine named ‘**_webkitSpeechRecognition’_**. This file can be placed anywhere in the webapp folder of the application. (recommended to be placed in util folder).
 
 # Usage
 
