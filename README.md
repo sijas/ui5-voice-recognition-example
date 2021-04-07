@@ -20,7 +20,7 @@ This repository contains the example and the source code developed using UI5 too
 
 # Usage
 
-## Initialization
+## ⚡️ Initialization
 
 In the component.js of the application import the speech recognizer API using sap.ui.define, on the init method initialize the SpeechRecognizer using below code.
 
@@ -65,6 +65,17 @@ It is possible to register command which takes input from the user as voice and 
     }.bind(this));
 
 In the above code, the texts spoken after the command is taken as parameter for the call back function.
+
+# Example Commands
+As a part of implementation example, we have enabled some commands as for testing the ability in this project. Checkout Master, Display and Edit Controllers for the code snippets.
+
+Below listed are the commands. 
+ - Search <name_of_employee>
+ - Clear Search
+ - Edit
+ - Save
+
+ By saying above command after pressing the mic button or Saying HELLO ASSISTANT (if assistant mode is enabled), the application will perform corresponding action
 
 # References
 
