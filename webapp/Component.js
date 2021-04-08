@@ -3,7 +3,7 @@ sap.ui.define([
 	"sap/ui/Device",
 	"./model/models",
 	"./controller/ListManager",
-	"./util/SpeechRecognizer"
+	"in/sijas/ui5/lib/speech-recognizer/SpeechRecognizer"
 ], function (UIComponent, Device, models, ListManager, SpeechRecognizer) {
 	"use strict";
 

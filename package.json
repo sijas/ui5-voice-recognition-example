@@ -15,8 +15,11 @@
   },
   "ui5": {
     "dependencies": [
-      "ui5-middleware-simpleproxy"
+      "ui5-middleware-simpleproxy",
+      "openui5-speech-recogniser"
     ]
   },
-  "dependencies": {}
+  "dependencies": {
+    "openui5-speech-recogniser": "^1.0.4"
+  }
 }
